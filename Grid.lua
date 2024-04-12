@@ -100,7 +100,7 @@ function Grid.new()
 	-- the first ones are on the surface
 	self.Blocks = {} -- dictionary with as key block ids and value the block's part
 	self.StoredPositions = {} -- table containing all grid positions which are or were occupied by a block, prevents blocks from spawning where another was mined
-	self.BlocksPos = {} -- dictionary which associate a string grid position to a block part
+	self.BlocksPos = {} -- dictionary which associates a string grid position to a block part
 	self.LastUsedBlockId = 0
 	self.LowestGridY = Layers.getLowestGridY()
 	self.LastMineCapacityUpdateTime = nil
