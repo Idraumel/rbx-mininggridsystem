@@ -1,7 +1,3 @@
--- Made by Idraumel for Interstellar Mines in 2023. (project cancelled)
--- This ModuleScript allows to create and manage a serverside 3d block grid.
--- It also features a function which generates random and natural-looking caves.
-
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local CollectionService = game:GetService("CollectionService")
 
